@@ -13,6 +13,9 @@ body {
   background-color: #cecece;
   padding: 20px 10px;
 }
+.hamburger {
+  color: black;
+}
 .header-menu .hamburger {
   display: none;
   color: white;
