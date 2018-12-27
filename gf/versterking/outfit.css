@@ -14,7 +14,7 @@ body {
   padding: 20px 10px;
 }
 .hamburger {
-  color: black;
+  color: black!important;
 }
 .header-menu .hamburger {
   display: none;
