@@ -104,7 +104,7 @@ body {
     top: 0;
   }
   #header-boven {
-   background-image: none;
+   background-image: none!important;
   }
 }
 
