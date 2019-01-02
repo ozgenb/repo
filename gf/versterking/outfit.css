@@ -19,6 +19,7 @@ body {
   color: white;
 }
 .header a {
+  filter:drop-shadow(2px 2px 5px black);  
   color: black;
   text-align: center;
   padding: 12px;
@@ -30,6 +31,7 @@ body {
 .logo img{
    -webkit-animation: logo-ani 4s infinite linear;
    animation: logo-ani 4s infinite linear;
+   filter:drop-shadow(2px 2px 5px black);  
 }
 .header a.active {
   background-color: #a20000;
