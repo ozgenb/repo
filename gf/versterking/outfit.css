@@ -19,7 +19,7 @@ body {
   color: white;
 }
 .header a {
-  filter:drop-shadow(2px 2px 5px black);  
+  filter:drop-shadow(1px 1px 5px black);  
   color: black;
   text-align: center;
   padding: 12px;
@@ -87,6 +87,7 @@ body {
     top: 20px;
     width: 100%;
     height: auto;
+    filter:drop-shadow(1px 1px 3px black);  
   }
   .header-menu a:not(:first-child) {
     display: none;
