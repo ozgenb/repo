@@ -44,6 +44,8 @@ body {
    background-image: none; /* moet hier !important ? */ 
   }
 }
+
+
 .header-menu {
   margin-top: 10px;
   display: hidden;
