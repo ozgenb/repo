@@ -15,7 +15,7 @@ body {
   } 
 
   #header-boven {
-    background-image: none!important;     /*sorry helaas important js gunt niet :( */
+    background-image: url("/mob.png")!important;     /*sorry helaas important js gunt niet :( */
     padding-top: 50%;
     padding-bottom: 55%;
     opacity: 0;
