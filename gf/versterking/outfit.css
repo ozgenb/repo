@@ -5,6 +5,21 @@ body {
   color: white;
 }
 @media screen and (max-width: 600px) {
+  #headerMenu {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+  } 
+
+/*.voet {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}*/
+
   #header-boven {
     background-image: none!important;     /*sorry helaas important js gunt niet :( */
   }
@@ -90,14 +105,6 @@ body {
 .menu:hover{
   background-color: #610000;
   color: white;
-}
-.voet {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
 }
 
 
