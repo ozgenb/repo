@@ -7,7 +7,7 @@ if ($(window).width() > 600) {
 }
 
 function fade() {
-$('#header-boven').delay(100).animate({'opacity':'1'},600);
+$('#header-boven').animate({'opacity':'1'},700);
 }
 
 
