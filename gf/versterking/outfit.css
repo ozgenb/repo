@@ -11,20 +11,13 @@ body {
   #headerMenu {
     bottom: 0px;
     position: fixed;
-    width: 100%;
+    width: 98%;
   } 
-
-/*.voet {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}*/
 
   #header-boven {
     background-image: none!important;     /*sorry helaas important js gunt niet :( */
+    padding-top: 50%;
+    padding-bottom: 55%;
   }
   .header a {
     float: none;
@@ -60,9 +53,6 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-  }
-  #header-boven {
-   background-image: none; /* moet hier !important ? */ 
   }
 } /*End mobile only                 xxxxxxxxxxxxxxxxxxxxx           xxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxxxxx*/ 
 
