@@ -5,6 +5,9 @@ body {
   color: white;
 }
 @media screen and (max-width: 600px) {
+  #header-boven {
+    background-image: none!important;     /*sorry helaas important js gunt niet :( */
+  }
   .header a {
     float: none;
     display: block;
@@ -19,7 +22,7 @@ body {
   .logo img{
     top: 20px;
     width: 100%;
-    height: auto;
+    height: auto; 
     filter:drop-shadow(1px 1px 3px black);  
   }
   .header-menu a:not(:first-child) {
@@ -43,7 +46,7 @@ body {
   #header-boven {
    background-image: none; /* moet hier !important ? */ 
   }
-}
+} /*End mobile only                 xxxxxxxxxxxxxxxxxxxxx           xxxxxxxxxxxxxxxxxxxxxxxx             xxxxxxxxxxxx*/ 
 
 
 .header-menu {
